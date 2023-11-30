@@ -1,0 +1,9 @@
+﻿<Application x:Class="z4_gr4_2_train_Shaposhnikov.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:z4_gr4_2_train_Shaposhnikov"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
