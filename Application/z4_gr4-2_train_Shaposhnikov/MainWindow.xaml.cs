@@ -25,14 +25,27 @@ namespace z4_gr4_2_train_Shaposhnikov
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
 
         private void Button_Click1(object sender, RoutedEventArgs e)
         {
+            Window1 window1 = new Window1();
+            window1.Show();
+            this.Close();
+        }
 
+        private void Button_Click2(object sender, RoutedEventArgs e)
+        {
+            Window2 window2 = new Window2();
+            window2.Show();
+            this.Close();
+        }
+
+        private void Button_Clic3(object sender, RoutedEventArgs e)
+        {
+            Window3 window3 = new Window3();
+            window3.Show();
+            this.Close();
         }
     }
 }
