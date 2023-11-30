@@ -9,12 +9,11 @@
     <Grid>
 
         <Image Margin="11,11,542,326" Source="/logo.png" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="Left" Height="26" Margin="426,122,0,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" Width="116" FontSize="18" FontFamily="Calibri"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="427,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="427,232,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
-        <TextBlock HorizontalAlignment="Left" Height="25" Margin="359,166,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="41" FontSize="14" FontFamily="Calibri"/>
-        <TextBlock HorizontalAlignment="Left" Height="25" Margin="347,232,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="53" FontSize="14" FontFamily="Calibri"/>
-        <Button Content="Войти" HorizontalAlignment="Left" Height="33" Margin="434,273,0,0" VerticalAlignment="Top" Width="100" FontSize="16" FontFamily="Calibri" Background="#FF00D9BB"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="393,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="393,218,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="325,152,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="41" FontSize="14" FontFamily="Calibri"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="313,218,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="53" FontSize="14" FontFamily="Calibri"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Height="33" Margin="400,259,0,0" VerticalAlignment="Top" Width="100" FontSize="16" FontFamily="Calibri" Background="#FF00D9BB"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="108" VerticalAlignment="Top" Width="800" Background="#FF00D9BB">
             <Image Margin="275,5,275,4" Source="/logo.png" Stretch="Fill"/>
         </Border>
