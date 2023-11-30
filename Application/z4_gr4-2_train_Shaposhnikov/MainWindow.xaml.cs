@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using z4_gr4_2_train_Shaposhnikov;
 namespace z4_gr4_2_train_Shaposhnikov
 {
     /// <summary>
@@ -23,6 +23,16 @@ namespace z4_gr4_2_train_Shaposhnikov
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

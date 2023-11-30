@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:z4_train_ohotnikov"
+        xmlns:local="clr-namespace:z4_gr4_2_train_Shaposhnikov"
         mc:Ignorable="d"
         Title="Window2" Height="450" Width="800">
     <Grid>
@@ -13,7 +13,7 @@
         <TextBox HorizontalAlignment="Left" Height="24" Margin="393,218,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
         <TextBlock HorizontalAlignment="Left" Height="25" Margin="325,152,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="41" FontSize="14" FontFamily="Calibri"/>
         <TextBlock HorizontalAlignment="Left" Height="25" Margin="313,218,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="53" FontSize="14" FontFamily="Calibri"/>
-        <Button Content="Войти" HorizontalAlignment="Left" Height="33" Margin="400,259,0,0" VerticalAlignment="Top" Width="100" FontSize="16" FontFamily="Calibri" Background="#FF00D9BB"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Height="33" Margin="400,259,0,0" VerticalAlignment="Top" Width="100" FontSize="16" FontFamily="Calibri" Background="#FF00D9BB" Click="Button_Click_1"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="108" VerticalAlignment="Top" Width="800" Background="#FF00D9BB">
             <Image Margin="275,5,275,4" Source="/logo.png" Stretch="Fill"/>
         </Border>
