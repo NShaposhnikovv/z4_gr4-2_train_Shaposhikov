@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:z4_gr4_2_train_Shaposhnikov"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+               Title="Window1" Height="450" Width="800">
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="163,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="163,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="163,288,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="117,223,0,0" TextWrapping="Wrap" Text="ФИО" VerticalAlignment="Top" Width="33" FontFamily="Calibri" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="78,253,0,0" TextWrapping="Wrap" Text="Должность" VerticalAlignment="Top" Width="72" FontFamily="Calibri" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="45,288,0,0" TextWrapping="Wrap" Text="Номер Телефона" VerticalAlignment="Top" Width="105" FontFamily="Calibri" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="352,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="296,219,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="36" FontFamily="Calibri" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="24" Margin="352,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="296,253,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="44" FontFamily="Calibri" FontSize="14" RenderTransformOrigin="0.5,-2.79"/>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Height="48" Margin="522,239,0,0" VerticalAlignment="Top" Width="172" Background="#FF00D9BB"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="108" VerticalAlignment="Top" Width="800" Background="#FF00D9BB"/>
+        <Image Margin="276,7,276,330" Source="/logo.png" Stretch="Fill"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="108" VerticalAlignment="Top" Width="800" Background="#FF00D9BB" Margin="0,326,0,0"/>
+        <Button Content="Вернуться на главную" HorizontalAlignment="Left" Height="48" Margin="10,123,0,0" VerticalAlignment="Top" Width="172" Background="#FF00D9BB" Click="Button_Click"/>
+
     </Grid>
 </Window>

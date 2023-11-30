@@ -1,0 +1,21 @@
+﻿<Window x:Class="z4_gr4_2_train_Shaposhnikov.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:z4_train_ohotnikov"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="118" VerticalAlignment="Top" Width="800" Background="#FF00D9BB"/>
+
+        <Image Margin="11,11,542,326" Source="/logo.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Center" Height="26" Margin="0,149,0,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" Width="116" FontSize="18" FontFamily="Calibri"/>
+        <TextBox HorizontalAlignment="Center" Height="24" Margin="0,193,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBox HorizontalAlignment="Center" Height="24" Margin="0,259,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="114"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="275,193,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="41" FontSize="14" FontFamily="Calibri"/>
+        <TextBlock HorizontalAlignment="Left" Height="25" Margin="263,259,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="53" FontSize="14" FontFamily="Calibri"/>
+        <Button Content="Войти" HorizontalAlignment="Center" Height="33" Margin="0,319,0,0" VerticalAlignment="Top" Width="100" FontSize="16" FontFamily="Calibri" Background="#FF00D9BB"/>
+
+    </Grid>
+</Window>
